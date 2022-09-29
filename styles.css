@@ -1,0 +1,114 @@
+body{
+    background-color:grey;
+    color:white;
+    height:100%;
+}
+
+.height{
+    height:6vh;
+    font-size:3vh;
+}
+
+.container{
+    margin-top:11%;
+    margin-left:38.5%;
+    grid-gap:4px;
+    width:20%;
+    display:grid;
+    border-radius:5px;
+    -webkit-box-shadow: 2px 2px 15px 5px #000000; 
+    box-shadow: 2px 2px 15px 5px #000000;
+    grid-template-areas:
+    "card-result card-result card-result card-result"
+    "card-ce card-c card-back card-divide"
+     "card-7 card-8 card-9 card-multiply"
+     "card-4 card-5 card-6 card-minus"
+     "card-1 card-2 card-3 card-plus"
+     "card-NULL card-0 card-point card-equals"
+}
+
+.button-result{
+    grid-area: card-result;
+    text-align:right;
+    border:grey 0.4vw solid;
+    background-color:black;
+    color:green;
+    border-radius:7px;
+ 
+}
+.button-NULL{
+    grid-area: card-NULL;
+}
+.button-ce{
+    grid-area: card-ce;
+}
+.button-c{
+    grid-area: card-c;
+}
+.button-back{
+    grid-area: card-back;
+}
+.button-minus{
+    grid-area: card-minus;
+}
+.button-plus{
+    grid-area: card-plus;
+}
+.button-multiply{
+    grid-area: card-multiply;
+}
+.button-equals{
+    grid-area: card-equals;
+}
+.button-divide{
+    grid-area: card-divide;
+}
+.button-point{
+    grid-area: card-point;
+}
+.button-0{
+    grid-area: card-0;
+}
+.button-1{
+    grid-area: card-1;
+}
+.button-2{
+    grid-area: card-2;
+}
+.button-3{
+    grid-area: card-3;
+}
+.button-4{
+    grid-area: card-4;
+}
+.button-5{
+    grid-area: card-5;
+}
+.button-6{
+    grid-area: card-6;
+}
+.button-7{
+    grid-area: card-7;
+}
+.button-8{
+    grid-area: card-8;
+}
+.button-9{
+    grid-area: card-9;
+}
+.grid-item-5{
+    grid-area: card-5;
+}
+
+#div1{
+   overflow:hidden;
+}
+
+#result{
+    color: blue;
+    background-color: white;
+    margin-top:10%;
+    text-align:center;
+    border: blue, 3px solid;
+    height:50%;
+}
